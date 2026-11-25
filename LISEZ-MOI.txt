@@ -4,3 +4,5 @@ Le stockage navigateur est distinct de celui d’Electron. Sauvegarder les ancie
 Le scanner USB en mode clavier et la saisie manuelle sont conservés. La webcam et les photos utilisent BarcodeDetector si disponible; ZXing n’est pas fourni. La synchronisation reprend le code V1.4.1, non validé en conditions réelles. Connexion à refaire après fermeture. Le cache hors connexion nécessite une première visite réussie. Ne pas effacer les données du site. La synchronisation ne tourne pas lorsque l’application est fermée.
 
 Nouvelle version : resolution explicite des conflits de modification, archive locale des deux versions. Sauvegarder les deux appareils avant mise a jour. Les conflits de doublon ou suppression restent a traiter manuellement. Pas de fusion automatique.
+
+Mise a jour : comparaison des differences et pause automatique pendant ouverture. Tests sur appareils requis.
