@@ -1,0 +1,1 @@
+window.GLPIDetector=window.BarcodeDetector;
